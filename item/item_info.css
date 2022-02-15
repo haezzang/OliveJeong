@@ -1,0 +1,43 @@
+.userimg{
+margin-left: 250px;
+margin-top: 50px;
+width: 500px;
+height: 500px;
+
+}
+body{
+    font:'Nanum Gothic', sans-serif;
+}
+
+p{
+    font: 15px'Nanum Gothic', sans-serif;
+}
+
+input{
+    font: 15px'Nanum Gothic', sans-serif;
+    text-align: center;
+    width: 50px;
+}
+
+
+.infobtn{
+    
+    width: 180px;
+    height: 80px;
+}
+#cart{
+
+    font: 20px'Nanum Gothic', sans-serif;
+    background-color: white;
+    color: rgb(236, 11, 86);
+    border: solid 1px rgb(236, 11, 86);
+
+}
+#buy{
+
+    font: 20px'Nanum Gothic', sans-serif;
+    background-color: rgb(236, 11, 86);
+    color: white;
+    border: solid 1px rgb(236, 11, 86);
+
+}

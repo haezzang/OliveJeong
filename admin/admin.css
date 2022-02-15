@@ -1,0 +1,35 @@
+body{
+    font-family: 'NanumSquare', sans-serif !important;
+    
+}
+.login_btn{
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(172, 226, 63);
+    width: 500px;
+    height: 60px;
+
+}
+a {
+     color: #ffffff !important ;
+text-decoration: none  !important 
+}
+
+
+h1{
+    margin-left: 200px;
+}
+div{
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+.upload{
+    padding-left:0px;
+    border-radius:0px;
+    border :none;
+    width: 500px;
+    height: 60px;
+
+}

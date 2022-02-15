@@ -1,0 +1,31 @@
+.back1{
+    
+    margin-top: 10px;
+    background: #ffb774;
+    background: linear-gradient( to left, #ffb774,yellow  );
+    height: 150px;
+
+
+}
+
+h1{
+    font-weight: bold;
+    font:'Nanum Gothic', sans-serif;
+    margin-left: 200px;
+}
+span{
+    font-weight: bold;
+    font:'Nanum Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.back2{
+
+    border-radius: 10px;
+    background: #ffffff;
+    margin-left: 200px;
+    width: 1050px;
+
+}
+
+                     
