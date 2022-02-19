@@ -35,23 +35,20 @@
         <li class="menu1"><a href="" class="a1">매장안내</a></li>
         <li class="menu1"><a href="" class="a1">주문배송</a></li>
         <li class="menu1" ><a href=""class="a1">장바구니</a></li>
-        <li class="menu1" ><a href=""class="a1">로그인</a></li>
-        <li class="menu1" ><a href=""class="a1">회원가입</a></li>
-      </ul>
-
-<!-- <?php
+    
+ <?php
          session_start(); //세션시작
         if(!isset( $_SESSION["id"]) || !isset($_SESSION['pass']) ){
            echo  "<li class='menu1' ><a href='login/login.html' class='a1' >로그인</a></li>";
         }
         else{
-           echo "<li class='menu1' ><a href='login/logout.php' class='a1' >로그아웃</a></li>" ;
+           echo "<li class='menu1' ><a href='login/logout.php' class='a' >로그아웃</a></li>" ;
         }
 ?>
        
         <li class="menu1" ><a href="login/join.html" class="a1">회원가입</a></li>    
     </ul>
-    <br> -->
+    <br> 
 
         
     <br>
@@ -63,9 +60,9 @@
 
             <div class="tip_div">
     
-              <a href="login/login.html" class="tip">
+              <a href="" class="tip">
                 | &nbsp 최근 본 상품<span><br><br<br><br><br>최근 본 상품이 없습니다</span></a>
-              <a href="#" class="tip" style="float: right;">
+              <a href="" class="tip" style="float: right;">
                 | &nbsp  관심매장 소식<span><br><br>로그인하시면 자주가는 매장을<br>관심매장으로 설정 할 수있습니다<button id="tipId">로그인</button></span></a>
                 <a href="" class="tip">
                  오늘드림<span><br><br<br><br><br>배송지를 등록하고 오늘드림으로<br>구매 가능한 상품을 확인 하세요!</span></a>
@@ -79,16 +76,16 @@
     
     <ul class="menu2_ul" style="margin-top :25px; margin-left: 250px; " >
         <li class="menu2"><a href="item/item1_add.php" class="a2">아이</a></li>
-        <li class="menu2"><a href="#" class="a2">립</a></li>
-        <li class="menu2"><a href="#" class="a2">페이스</a></li>
-        <li class="menu2"><a href="#" class="a2">스킨케어</a></li>
-        <li class="menu2"><a href="#" class="a2">네일</a></li>
-        <li class="menu2"><a href="#" class="a2">팩/마스크</a></li>
-        <li class="menu2"><a href="#" class="a2">클렌징</a></li>
-        <li class="menu2"><a href="#" class="a2">바디/헤어</a></li>
-        <li class="menu2"><a href="#" class="a2">향수</a></li>
-        <li class="menu2"><a href="#" class="a2">화장소품</a></li>
-        <li class="menu2"><a href="#" class="a2">이벤트</a></li>
+        <li class="menu2"><a href="" class="a2">립</a></li>
+        <li class="menu2"><a href="" class="a2">페이스</a></li>
+        <li class="menu2"><a href="" class="a2">스킨케어</a></li>
+        <li class="menu2"><a href="" class="a2">네일</a></li>
+        <li class="menu2"><a href="" class="a2">팩/마스크</a></li>
+        <li class="menu2"><a href="" class="a2">클렌징</a></li>
+        <li class="menu2"><a href="" class="a2">바디/헤어</a></li>
+        <li class="menu2"><a href="" class="a2">향수</a></li>
+        <li class="menu2"><a href="" class="a2">화장소품</a></li>
+        <li class="menu2"><a href="" class="a2">이벤트</a></li>
     </ul>
 
     <!-- 캐러셀 -->
@@ -106,36 +103,13 @@
       <br><br>
 
 
-      <div> 
-         
-         <p style="font-weight: bold; font-size: 25px; margin-left:250px;">유사한 고객님이 <br> 많이 구매했어요</p>
-   
-            <div class="card-group"  style="width:500px; margin-left: 250px; border:none;"  >  
-            <div class="card" style="border:none; ">
-                <img src="img/best/b1.jpg" class="card-img-top" alt="...">
-                <div >
-                  <p style="font-size: 15px">마녀공장 비피다 바이옴 앰플 토너 400ml+100ml 기획 
-                  <br><a style="color: red; font-size: 15px; font-weight: bold;">17,500원</a><p>
-                </div>
-              </div>
-            <div style=" margin-right: 50px;"></div>
-              <div class="card" style="border:none;">
-                <img src="https://image.oliveyoung.co.kr/uploads/images/goods/550/10/0000/0014/A00000014828505ko.jpg?l=ko" class="card-img-top" alt="...">
-                <div >
-                <p style="font-size: 15px">마녀공장 비피다 바이옴 앰플 토너 400ml+100ml 기획 
-                  <br><a style="color: red; font-size: 15px; font-weight: bold;">17,500원</a><p>
-                </div>
-              </div>      
-      </div>
-     
-      <button class="item">다른상품 추천 해드릴게요</button>
+  
 
-
-
-
-
-
-            <br><br><br>
+        <!-- 상품1 -->
+        <iframe src="iframe/item1.html" title="내용" name="frame2" width="80%" height="500px"style="margin-left: 250px;"></iframe>
+       
+        <!-- Weekly Special -->
+ 
             <center><p style="font-weight: bold; font-size: 30px;">Weekly Special</p></center>
             <p style="padding-left: 300px;">
             <a href=""><img src="img/w1.jpg" width="40%"></a>
@@ -157,29 +131,20 @@
             <center><p style="font-weight: bold; font-size: 25px;">주목해야 할 브랜드</p></center>
 
 
-            <table class="table table-bordered">
-  <tbody>
-    <tr>
-      <td>아벤느</td>
-      <td>아비브</td>
-      <td>투쿨포스쿨</td>
-      <td>이세이미야케</td>
-      <td>세리박스</td>
-    </tr>
+            <table class="table table-bordered"
+            style="width: 960px; height: 50px; margin-left:300px; table-layout:fixed;">
+            <tbody>
+              <tr>
+                <td class="brand"><a href="iframe/menu1.html" target="frame" class="a3" >아벤느</a></td>
+                <td class="brand"><a href="iframe/menu2.html" target="frame" class="a3" >아비브</a></td>
+                <td class="brand"><a href="iframe/menu3.html" target="frame" class="a3">투쿨포스쿨</a></td>
+                <td class="brand"><a href="iframe/menu4.html" target="frame" class="a3">이세이미야케</a></td>
+                <td class="brand"><a href="iframe/menu5.html" target="frame" class="a3">세리박스</a></td>
+              </tr>
+          <tbody>
 
-  </tbody>
-</table>
-
-
-
-            <ul id="menu3_ul">
-              <li class="menu3"><a href="menu/menu1.html" target="frame" class="a3">아벤느</a></li>
-              <li class="menu3"><a href="menu/menu2.html" target="frame" class="a3">아비브</a></li>
-              <li class="menu3"><a href="menu/menu3.html" target="frame" class="a3">투쿨포스쿨</a></li>
-              <li class="menu3"><a href="menu/menu4.html" target="frame" class="a3">이세이미야케</a></li>
-              <li class="menu3"><a href="menu/menu5.html" target="frame" class="a3">세리박스</a></li>
-            </ul>   
-             <iframe src="menu/menu1.html" title="내용" name="frame" width="80%" height="600px"style="margin-left: 300px;"></iframe>
+          </table>
+          <iframe src="iframe/menu1.html" title="내용" name="frame" width="80%" height="600px"style="margin-left: 300px;"></iframe>
         
           <br>
        
@@ -258,28 +223,6 @@
     
             </footer>
   
-
-            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-            <script type="text/javascript" src="slick/slick.min.js"></script>
-            <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-            <script>
-              $('.slider').slick();
-              $('.slider').slick({ 
-                dots: true, //페이지 네비게이션 
-                arrows:true, // next, prev 이동 버튼 
-                autoplay:ture, // 자동 넘김 여부 
-                infinite: false, //반복설정 
-                speed: 300, //슬라이드 속도 
-                autoplaySpeed : 10000, // 자동 넘김시 슬라이드 시간 
-                pauseOnHover : true,// 마우스 hover시 슬라이드 멈춤 
-                vertical : false, // 세로 방향 슬라이드 옵션 
-                slidesToShow: 4, //보여질 슬라이드 수 
-                slidesToScroll: 4, //넘겨질 슬라이드 수
-                dotsClass : "slick-dots",     //아래 나오는 페이지네이션(점) css class 지정
-                draggable : true,     //드래그 가능 여부 
-            });
-            </script>
 
 </body>
 </html>

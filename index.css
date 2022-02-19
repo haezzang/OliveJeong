@@ -1,342 +1,243 @@
-
-body{
+body {
   margin: 0;
   padding: 0;
-font-family: 'NanumSquare', sans-serif !important;
-background-color:white;
-
+  font-family: "NanumSquare", sans-serif !important;
+  background-color: white;
 }
-
 
 /* 로그인 목록 */
-#menu1_ul{
- padding-left: 0px;
- margin-right: 100px;
-
-
+#menu1_ul {
+  padding-left: 0px;
+  margin-right: 100px;
 }
-.menu1{
-  font-family: 'NanumSquare', sans-serif !important;
-list-style-type: none;
-float:right;
-margin-right: 15px;
-font-size: 12px;
-
+.menu1 {
+  font-family: "NanumSquare", sans-serif !important;
+  list-style-type: none;
+  float: right;
+  margin-right: 15px;
+  font-size: 12px;
 }
-.a1{
-  font-family: 'NanumSquare', sans-serif !important;
+.a1 {
+  font-family: "NanumSquare", sans-serif !important;
   text-decoration: none;
   color: black;
-  }
+}
 /* 카테고리목록 */
 
-.menu2{
-font-family: 'NanumSquare', sans-serif !important;
-list-style-type: none;
-float:left;
-font-size: 16px;
-font-weight: bold;
-margin-left: 10px;
-margin-bottom: 10px;
+.menu2 {
+  font-family: "NanumSquare", sans-serif !important;
+  list-style-type: none;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
-.a2{
+.a2 {
   margin-left: 25px;
-  }
+}
 .a2:link {
-color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .a2:visited {
-color : black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .a2:hover {
-color : orangered;
-text-decoration: underline;
+  color: orangered;
+  text-decoration: underline;
 }
 .a2:active {
-color :orangered;
-text-decoration: none;
+  color: orangered;
+  text-decoration: none;
 }
 
-
 /* 올리브영로고 */
-#logo{
-width: 250px;
-height: 60px;
-margin-left: 200px;
-float: left;
+#logo {
+  width: 250px;
+  height: 60px;
+  margin-left: 200px;
+  float: left;
 }
 
 /*검색*/
-#search{
-  font-family: 'NanumSquare', sans-serif !important;
+#search {
+  font-family: "NanumSquare", sans-serif !important;
   margin-left: 120px;
   border-radius: 20px;
   margin-top: 15px;
   width: 350px;
   height: 40px;
-  border :solid 2px yellowgreen;
+  border: solid 2px yellowgreen;
 }
-input:focus {outline:none;}
-
-
+input:focus {
+  outline: none;
+}
 
 /* 캐러셀 텍스트 */
 .carousel-desc {
-    position: absolute;
-    bottom: 1.25rem;
-    left: 23%;
-    top:50px;
-    color: white;
-}
-
-.carousel-descb{
   position: absolute;
   bottom: 1.25rem;
   left: 23%;
-  top:50px;
+  top: 50px;
+  color: white;
+}
+
+.carousel-descb {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 23%;
+  top: 50px;
   color: black;
 }
-.desc-top{
+.desc-top {
   font-weight: bold;
   font-size: 15px;
-
 }
-.desc-mid{
+.desc-mid {
   font-size: 50px;
-
 }
-.desc-bottom{
+.desc-bottom {
   font-weight: bold;
   font-size: 20px;
-
 }
 
 /* 관심매장소식 최근본상품 */
 
-.tip_div{
+.tip_div {
   font-size: 14px;
   float: right;
   margin-right: 250px;
   margin-top: 23px;
-  }
-
-a.tip {
-padding-left: 10px;
-float: right;
-color: black;
-text-decoration: none;
-
 }
 
+a.tip {
+  padding-left: 10px;
+  float: right;
+  color: black;
+  text-decoration: none;
+}
 
 a.tip:hover {
-cursor: pointer;
-position: relative;
-color: black;
-text-decoration: underline 2px black;
+  cursor: pointer;
+  position: relative;
+  color: black;
+  text-decoration: underline 2px black;
 }
 
 a.tip span {
-display: none;
-text-align: center;
-color: gray;
-font-weight: bold;
+  display: none;
+  text-align: center;
+  color: gray;
+  font-weight: bold;
 }
 
 a.tip:hover span {
-padding: 5px 20px 5px 20px;
-display: block;
-z-index: 20;
-background: white;
-border: darkgray solid 1px;
-margin-top: 5px; 
-margin-right: 400px;
-height: 200px;
-width: 300px;
-position: absolute;
-text-decoration: none
+  padding: 5px 20px 5px 20px;
+  display: block;
+  z-index: 20;
+  background: white;
+  border: darkgray solid 1px;
+  margin-top: 5px;
+  margin-right: 400px;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  text-decoration: none;
 }
-a.tip:active span{
-display: block;
-z-index: 21;
-position: absolute;
+a.tip:active span {
+  display: block;
+  z-index: 21;
+  position: absolute;
 }
-#tipId{
-margin-top: 20px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-right: 10px;
-padding-left: 10px;
-background-color: white;
-border: gray solid 1px;
+#tipId {
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: white;
+  border: gray solid 1px;
 }
-#tipId:hover{
+#tipId:hover {
   color: olivedrab;
 }
 
-
-
-
 /* 주목해야할브랜드 */
-#menu3_ul{
-margin-left: 300px;
 
+#menu3_ul {
+  margin-left: 300px;
 }
-.menu3{
-border: gray solid 1px;
-list-style-type: none;
-float:left;
-font-size: 20px;
-color:gray;
-padding: 15px 20px 15px 20px;
-margin:30px
+.menu3 {
+  border: gray solid 1px;
+  list-style-type: none;
+  float: left;
+  font-size: 20px;
+  color: gray;
+  padding: 15px 20px 15px 20px;
+  margin: 30px;
 }
-
 
 .a3:link {
   font-weight: bold;
-color :black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .a3:visited {
-color : black;
-text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
+
 .a3:hover {
-color : rgb(137, 197, 17);
-
+  color: rgb(137, 197, 17);
 }
 
-footer{
+footer {
   background-color: whitesmoke;
 }
-footer img{
+footer img {
   width: 90px;
   height: 90px;
 }
-.foo_div{
+.foo_div {
   float: left;
 }
-.fo1_div1{
+.fo1_div1 {
   text-align: center;
 }
-.fo1_div1 span{
-  margin-top:  5px;
+.fo1_div1 span {
+  margin-top: 5px;
   color: wheat;
 }
-.fo1_div1 img{
+.fo1_div1 img {
   width: 25px;
-  height:  25px;
+  height: 25px;
   margin-top: 10px;
 }
-slick-prev {
-  font-size: 0;
-  position: absolute;
-  bottom: 20px;
-  color: #00913a;
-  border: 0;
-  background: none;
-  z-index: 1;
-   top: 20px;
-   cursor: pointer;
 
-   background-size : cover ;
-}
-.slick-next {
-  font-size: 0;
-  position: absolute;
-  bottom: 20px;
-  color: #00913a;
-  border: 0;
-  background: none;
-  z-index: 1;
-   top: 20px;
-   cursor: pointer;
-
-   background-size : cover ;
-}
-.slick-prev {
-  font-size: 0;
-  position: absolute;
-  bottom: 20px;
-  color: #00913a;
-  border: 0;
-  background: none;
-  z-index: 1;
-   top: 20px;
-   cursor: pointer;
-
-   background-size : cover ;
-}
-.slick-next {
-  font-size: 0;
-  position: absolute;
-  bottom: 20px;
-  color: #00913a;
-  border: 0;
-  background: none;
-  z-index: 1;
-   top: 20px;
-   cursor: pointer;
- 
-   background-size : cover ;
+.back {
+  background-image: url("img/Only.jpg");
 }
 
-.slick-prev {
-  left: 20px;
-}
-
-.slick-prev:after {
-  content: "<";
-  font: 35px/1 'Nanum Gothic', sans-serif;
-  font-weight: bold;
-  padding-left: 35px;
-}
-
-.slick-next {
-  right: 20px;
-  text-align: right;
-}
-
-.slick-next:after {
-  content: ">";
-   font: 35px/1 'Nanum Gothic', sans-serif;
-   font-weight: bold;
-   padding-right: 35px;
-}
-
-.slick-prev:hover:after,
-.slick-next:hover:after {
-  color: #7e7e7e;
-}
-.back{
-  background-image: url('img/Only.jpg');
-}
-
-
-.foo_div{
+.foo_div {
   margin-left: 400px;
 }
-#foot{
-height: 200px;
+#foot {
+  height: 200px;
   width: 300px;
 }
-#footbtn{
+#footbtn {
   border: 0;
   outline: 0;
   padding: 10px 10px;
   color: white;
-  background-color:rgb(182, 182, 182);
+  background-color: rgb(182, 182, 182);
 }
-td{
+td {
   padding-left: 10px;
 }
 
-.foo_div2{
+.foo_div2 {
   margin-left: 300px;
 }
-
-
-
