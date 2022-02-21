@@ -106,8 +106,8 @@
   
 
         <!-- 상품1 -->
-        <iframe src="iframe/item1.html" title="내용" name="frame2" width="80%" height="500px"style="margin-left: 250px;"></iframe>
-       
+        <iframe src="iframe/fitem1.php" title="내용" name="frame2" width="80%" height="600px"style="margin-left: 250px;"></iframe>
+        <br>
         <!-- Weekly Special -->
  
             <center><p style="font-weight: bold; font-size: 30px;">Weekly Special</p></center>
@@ -116,7 +116,7 @@
             <a href=""><img src="img/w2.jpg" width="40%"></p></a>
        
           <br><br>
-     
+          <br><br>
 
       
 
@@ -178,7 +178,7 @@
           <tbody>
 
           </table>
-          <iframe src="iframe/menu1.html" title="내용" name="frame" width="80%" height="300px"style="margin-left: 300px;"></iframe>
+          <iframe src="iframe/menu1.php" title="내용" name="frame" width="80%" height="300px"style="margin-left: 300px;"></iframe>
         
           <br>
        
