@@ -14,7 +14,7 @@ $re = mysqli_fetch_row($result);
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>올리브영</title>
+    <title>상품 수정</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="admin.css">
