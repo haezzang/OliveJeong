@@ -3,7 +3,7 @@
 include ("./db_conn.php");
 $idx = $_GET['idx']; 
 
-$sql="select * from item1 where num=$idx";
+$sql="select * from item where num=$idx";
 $result=mysqli_query($conn,$sql);
 $re = mysqli_fetch_row($result);
 
@@ -45,6 +45,20 @@ $re = mysqli_fetch_row($result);
                 <input type="text" placeholder="품명" class="login_id" name="iname" value="<?php echo $re[2]?>"><br>
                 <input type="text" placeholder="상세정보" class="login_id" name="itemdesc" value="<?php echo $re[5]?>"><br>
                 <input type="text" placeholder="가격"  class="login_pw"  name="price" value="<?php echo $re[3]?>"><br><br>
+                <select name='itemtype' size='0'>
+                  <option value=''>상품 유형</option>
+                  <option value='1'>아이</option>
+                  <option value='2'>립</option>
+                  <option value='3'>페이스</option>
+                  <option value='5'>스킨케어</option>
+                  <option value='6'>네일</option>
+                  <option value='7'>팩/마스크</option>
+                  <option value='8'>클렌징</option>
+                  <option value='9'>바디/헤어</option>
+                  <option value='10'>향수</option>
+                  <option value='11'>화장소품</option>
+                  <option value='12'>이벤트</option>
+              </select>
                 <button type="submit"  class="login_btn">상품수정</button><br><br>
               
 

@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="index.css?after">
 <ul id="menu1_ul"> 
         <li class="menu1"><a href="" class="a1">고객센터</a></li>
         <li class="menu1"><a href="" class="a1">매장안내</a></li>

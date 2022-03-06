@@ -93,7 +93,7 @@ function imageView(url) {
 
 include ("./db_conn.php");
 
-$sql="select * from item1";
+$sql="select * from item";
 $result=mysqli_query($conn,$sql);
 $num=mysqli_num_rows($result);
 

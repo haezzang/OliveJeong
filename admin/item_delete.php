@@ -3,7 +3,7 @@
 include ("./db_conn.php");
 $idx=$_GET["idx"];
 
-$sql="delete from item1 where num=$idx";
+$sql="delete from item where num=$idx";
 mysqli_query($conn, $sql);
 mysqli_close($conn);
 

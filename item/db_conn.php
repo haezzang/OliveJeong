@@ -3,7 +3,7 @@
 <?php
 $url='localhost';
 $id='haeshop';
-$pass='1111';
+$pass='wq2ozPT8YW5PbK1c';
 $db='haeshop';
 $conn=mysqli_connect($url,$id,$pass,$db);
 ?>

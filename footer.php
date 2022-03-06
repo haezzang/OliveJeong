@@ -1,6 +1,6 @@
 
-
-            <hr width = "100%" color = "blue" size = "3">
+          <link rel="stylesheet" href="index.css?after">
+         <hr width = "100%" color = "blue" size = "3">
          
          <div class="foo_div">
            <table style="text-align: center;" >

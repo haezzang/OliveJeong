@@ -20,74 +20,41 @@
 </head>
 
 <body>
-      <div
-      class="card-group"
-      style="width: 60rem;  border: none"
-    >
-      <div class="card" style="border: none">
-        <img src="../img/best/b1.jpg" class="card-img-top" alt="..." />
-        <div>
-          <p style="font-size: 15px">
-            마녀공장 비피다 바이옴 앰플 토너 400ml+100ml 기획 <br /><a
-              style="color: red; font-size: 15px; font-weight: bold"
-              >17,500원</a
-            >
-          </p>
-          <p></p>
-        </div>
-      </div>
-      <div style="margin-right: 50px"></div>
-      <div class="card" style="border: none">
-        <img
-          src="https://image.oliveyoung.co.kr/uploads/images/goods/550/10/0000/0014/A00000014828505ko.jpg?l=ko"
-          class="card-img-top"
-          alt="..."
-        />
-        <div>
-          <p style="font-size: 15px">
-            마녀공장 비피다 바이옴 앰플 토너 400ml+100ml 기획 <br /><a
-              style="color: red; font-size: 15px; font-weight: bold"
-              >17,500원</a
-            >
-          </p>
-          <p></p>
-        </div>
-      </div>
-      <div style="margin-right: 50px"></div>
-      <div class="card" style="border: none">
-        <img
-          src="https://image.oliveyoung.co.kr/uploads/images/goods/550/10/0000/0014/A00000014828505ko.jpg?l=ko"
-          class="card-img-top"
-          alt="..."
-        />
-        <div>
-          <p style="font-size: 15px">
-            마녀공장 비피다 바이옴 앰플 토너 400ml+100ml 기획 <br /><a
-              style="color: red; font-size: 15px; font-weight: bold"
-              >17,500원</a
-            >
-          </p>
-          <p></p>
-        </div>
-      </div>
-      <div style="margin-right: 50px"></div>
-      <div class="card" style="border: none">
-        <img
-          src="https://image.oliveyoung.co.kr/uploads/images/goods/550/10/0000/0014/A00000014828505ko.jpg?l=ko"
-          class="card-img-top"
-          alt="..."
-        />
-        <div>
-          <p style="font-size: 15px">
-            마녀공장 비피다 바이옴 앰플 토너 400ml+100ml 기획 <br /><a
-              style="color: red; font-size: 15px; font-weight: bold"
-              >17,500원</a
-            >
-          </p>
-          <p></p>
-        </div>
-      </div>
-    </div>
+
+  
+  <table>
+    <tr>
+
+    <div class="card-group" style="width: 220px;  border: none; " >
+        <?php
+        include ("./db_conn.php");
+        
+        $sql="select * from item1";
+        $result=mysqli_query($conn,$sql);
+        $num=mysqli_num_rows($result);
+        
+        for($i=0;$i<$num;$i++) {
+         
+            $re=mysqli_fetch_array($result);
+            ?>
+            <td>
+
+            <?php
+            echo "<a href='../item/item_info.php?rowx=$re[num]'><img src='$re[img]'style='width: 220px;'  class='card-img-top'></a>";
+             echo "<div class='card' style='border: none; width: 220px;'>";
+              echo "<p style='font-size: 15px'><b>$re[bname]<br></b>$re[iname]
+              <br><a style='color : red; font-size:15px'><b>$re[price]원</b></a></p>";
+              echo "</div></td>";
+             
+        ?>         
+          <?php
+           if(($i+1)==2){ break; echo "</tr>";}
+   
+          }
+         
+          ?>
+          
+        </table>
       
 </head>
 <body>
