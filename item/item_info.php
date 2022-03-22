@@ -2,7 +2,7 @@
    $rowx=$_GET['rowx'];
    include ("./db_conn.php");
    
-   $sql="select * from item1 where num=$rowx";
+   $sql="select * from item where num=$rowx";
 
    ?>
 

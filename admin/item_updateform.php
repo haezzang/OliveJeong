@@ -58,7 +58,7 @@ $re = mysqli_fetch_row($result);
                   <option value='10'>향수</option>
                   <option value='11'>화장소품</option>
                   <option value='12'>이벤트</option>
-              </select>
+              </select><br>
                 <button type="submit"  class="login_btn">상품수정</button><br><br>
               
 

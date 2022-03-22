@@ -10,7 +10,7 @@ $itemtype=$_POST['itemtype'];
 include ("./db_conn.php");
 
 
-$sql="update item1 set num='$idx', bname='$bname', iname='$iname', price='$price', itemdesc='$itemdesc',itemtype='$itemtype' where num=$idx";
+$sql="update item set num='$idx', bname='$bname', iname='$iname', price='$price', itemdesc='$itemdesc',itemtype='$itemtype' where num=$idx";
 mysqli_query($conn, $sql);
 mysqli_close($conn);
 

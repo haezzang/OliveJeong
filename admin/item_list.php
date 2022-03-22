@@ -100,7 +100,8 @@ $num=mysqli_num_rows($result);
 for($i=0;$i<$num;$i++) {
     $re=mysqli_fetch_array($result);
     ?>
- <td><img src="<?php echo $re['img']?>" onclick="imageView('<?php echo $re['img']?>')" id="img1" width="100px" height="100px">
+ <!-- <td><img src="<?php echo $re['img']?>" onclick="imageView('<?php echo $re['img']?>')" id="img1" width="100px" height="100px"> -->
+ <td><img src="../img/item/eye1.jpg" onclick="imageView('<?php echo $re['img']?>')" id="img1" width="100px" height="100px">
   </td>
   <?php
     echo "<td><br><br>$re[bname]</td>";
